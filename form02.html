@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="bes017">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Formulário02</title>
+</head>
+
+<body>
+    <form action="dados.html" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone"><br>
+
+        <label for="comida">Tipo de comida:</label>
+        <select id="comida" name="comida[]" multiple>
+            <option value="italiana">Italiana</option>
+            <option value="japonesa">Japonesa</option>
+            <option value="chinesa">Chinesa</option>
+            <option value="brasileira">Brasileira</option>
+            <option value="mexicana">Mexicana</option>
+        </select><br>
+
+        <label for="comentario">Comentário:</label>
+        <textarea id="comentario" name="comentario" rows="30" cols="30"></textarea><br>
+
+        <label for="datahora">Data e Hora:</label>
+        <input type="datetime-local" id="datahora" name="datahora"><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
+
+    </form>
+</body>
+
+</html>

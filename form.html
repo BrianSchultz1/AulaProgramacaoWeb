@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="bes017">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Formulário</title>
+</head>
+
+<body>
+    <h1>Formulário</h1>
+    <form action="dados.html" method="get">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+
+        <label for="login">Login:</label>
+        <input type="text" id="login" name="login"><br><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha"><br><br>
+
+        <label for="estado_civil">Estado Civil:</label>
+        <select id="estado_civil" name="estado_civil">
+            <option value="solteiro">Solteiro</option>
+            <option value="casado">Casado</option>
+            <option value="divorciado">Divorciado</option>
+            <option value="viuvo">Viúvo</option>
+        </select><br><br>
+
+        <label>Sexo:</label><br>
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="masculino" name="sexo" value="masculino">
+        <label for="feminino">Feminino</label>
+        <input type="radio" id="feminino" name="sexo" value="feminino"><br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+
+</html>

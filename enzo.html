@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - imagens</title>
+</head>
+
+<body>
+    <form>
+        <input name="nome" value="">
+        <input type="submit" size="24" maxlength="25">
+        <input type=password name=senha size=20 minlength="2"> <br>
+        <textarea name=comentario rows=10 cols=40>
+              Escreva seu comentário
+    </textarea>
+        <SELECT name=turno> <br>
+            <OPTION>Matutino</OPTION>
+            <OPTION>Vespertino</OPTION>
+            <OPTION>Noturno</OPTION>
+        </SELECT>
+        <form method="POST” action=“dados.html">
+            Escolha a(s) área(s) de seu interesse:<br>
+            <input type="checkbox" name="educacao" value=1>eduv<br>
+            <input type="checkbox" name="esporte" value=2>esporte<br>
+            <input type="checkbox" name="saude" value=3>saúde
+        </form>
+        Qual seu curso?<br>
+        <input type="radio" name="curso" value="bes">Engenharia de Software<br>
+        <input type="radio" name="curso" value="bcc">Ciência da Computação<br>
+        <input type="radio" name="curso" value="lc">Licenciatura em Computação<br>
+        <input type="radio" name="curso" value="bsi">Sistemas de Informação<br>
+        <input type="submit" name="enviar">
+        <input type="reset" name="apagar">
+    </form>
+</body>
+
+</html>
