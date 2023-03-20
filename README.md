@@ -1,2 +1,2 @@
 # AulaProgramacaoWeb
-Meus códigos das aulas de Programação Web
+Meus códigos das minhas aulas de Programação Web
