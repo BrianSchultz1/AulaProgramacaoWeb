@@ -1,0 +1,60 @@
+<html>
+
+<head>
+  <meta name="description" content="Enzo é o meu preferido">
+  <title>Robocop - um robô de Cop</title>
+  <script type="text/javascript">
+    function exemplo_alerta() {
+      alert("Boa leitura!");
+    }
+
+    function nomeCompleto(nome, sobrenome) {
+      alert("Olá " + nome + " " + sobrenome);
+    }
+
+    var r = confirm("Confirma?");
+    if (r == true) {
+      document.write("você selecionou OK!");
+    } else {
+      document.write("você selecionou Cancelar!");
+    }
+
+  </script>
+</head>
+
+<body onload="exemplo_alerta()">
+  <script type="text/javascript">
+    var a = 3;
+    var b = 5;
+    if (a < b) {
+      !
+        document.write(" entrou aqui a < b");
+    } else if (a > b) {
+      document.write("a > b")
+    } else {
+      document.write("a = b")
+    }
+    for (var i = 0; i < 11; i++) {
+      document.write(i + " ");
+    }
+    var r = prompt("Qual objeto você deseja incluir na lista?",
+      "Adicione um novo objeto");
+
+    document.write(r, " inserido na lista");
+  </script>
+
+  <button onclick="nomeCompleto('Enzo', 'Muniz')"></button>
+  <p>DOM</p>
+  <div id="id DOM">
+    <p>Exemplo de DOM.</p>
+    <p>Parágrafo 2.</p>
+  </div>
+  <script>
+    var x = document.getElementById("id DOM");
+    var y = x.getElementsByTagName("p");
+    document.write('Obtendo o primeiro parágrafo do id DOM:'
+      + y[0].innerHTML);
+  </script>
+</body>
+
+</html>
